@@ -19,6 +19,7 @@ Route::get('/home', function () {
     return view('index');
 });
 
+<<<<<<< HEAD
 Route::get('/team', function () {
     return view('team');
 });
@@ -41,3 +42,8 @@ Route::get('/domvc', function () {
 
 Route::post("/send","send@send");
 
+=======
+Route::get('/clients', function () {
+    return view('client');
+});
+>>>>>>> 819c8b05e8d8a12c53bf2902a20f793ebf52dee6
