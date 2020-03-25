@@ -41,7 +41,7 @@ Route::get('/domvc', function () {
 
 Route::post("/send","send@send");
 
-=======
+
 Route::get('/clients', function () {
     return view('client');
 });
