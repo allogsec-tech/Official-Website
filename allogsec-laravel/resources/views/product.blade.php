@@ -36,7 +36,7 @@
               manage their documents. The DoMVc – Document Management and Version Control tries to achieve the
               following
               viabilities:... </p>
-            <a class=" font-weight-bold d-inline-block" href="/product-2">
+            <a class=" font-weight-bold d-inline-block" href="/domvc">
               <img src="/images/product/moreDetails.svg" class="moredetailsimg" alt=""></a>
 
 
@@ -75,7 +75,7 @@
               It
               also stands as a medium to track fund disbursements, donor information and other liabilities. The
               application also provides a finance and accounting module (Including taxation). </p>
-            <a class="font-weight-bold d-inline-block" href="/product1"><img src="/images/product/moreDetails.svg"
+            <a class="font-weight-bold d-inline-block" href="/charapp"><img src="/images/product/moreDetails.svg"
                 class="moredetailsimg" alt=""></a>
 
 

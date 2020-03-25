@@ -7,7 +7,7 @@
 
 <body onload="nav()">
 
-  <%- include('./partials/navbar') -%>
+  @include('partials.navbar')
 
   <img src="/images/contact/uppercurve.png" alt="" id="uppercurve">
   <img src="/images/contact/lowercurve.png" alt="" id="lowercurve">
@@ -19,6 +19,7 @@
         </div>
         <div class="  form">
           <form action="/send" method="POST">
+          {{csrf_field()}}
             <input class="mailForm m-1 py-1" type="text" name="email" id="email" placeholder="Email">
             <input class="mailForm m-1 py-1" type="text" name="name" id="name" placeholder="Name">
             <input class="mailForm m-1 py-1" type="text" name="subject" id="subject" placeholder="Your Question">

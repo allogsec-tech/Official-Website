@@ -20,7 +20,7 @@
         <a class="nav-link" href="/">Home</a>
       </li>
       <li class="nav-item  p-3  " id="product">
-        <a class="nav-link" href="/product">Products</a>
+        <a class="nav-link" href="/products">Products</a>
       </li>
       <li class="nav-item  p-3 " id="team">
         <a class="nav-link" href="/team">Team</a>

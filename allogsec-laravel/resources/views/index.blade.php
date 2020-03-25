@@ -2,12 +2,20 @@
 
 <link rel="stylesheet" href="/stylesheets/footerResponsive.css">
 <link rel="stylesheet" href="/stylesheets/teamResponsive.css">
+<title>Allogsec|Home</title>
 
 </head>
 
 <body onload="nav()">
 
   @include('partials.navbar')
+
+  @if (isset($success))
+<div class="alert alert-success alert-dismissible" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          {!! $success !!}. 
+</div>
+@endif
 
   <main>
     <div class="container-fluid mt-5 content">
