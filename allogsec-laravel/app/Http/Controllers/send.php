@@ -15,6 +15,10 @@ class send extends Controller
      	$subject = $req->input('subject');
      	$message = $req->input('message');
 
+     	if($message == ''){
+     		$message = 'NA';
+     	}
+
 
 $data = array('email' =>$email ,'name' =>$name ,'subject' =>$subject ,'message' =>$message);
 

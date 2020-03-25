@@ -21,9 +21,9 @@
         <div class="  form">
           <form action="/send" method="POST">
           {{csrf_field()}}
-            <input class="mailForm m-1 py-1" type="text" name="email" id="email" placeholder="Email">
-            <input class="mailForm m-1 py-1" type="text" name="name" id="name" placeholder="Name">
-            <input class="mailForm m-1 py-1" type="text" name="subject" id="subject" placeholder="Your Question">
+            <input class="mailForm m-1 py-1" type="text" name="email" id="email" placeholder="Email" required>
+            <input class="mailForm m-1 py-1" type="text" name="name" id="name" placeholder="Name" required>
+            <input class="mailForm m-1 py-1" type="text" name="subject" id="subject" placeholder="Your Question" required>
             <textarea class="mailForm m-1 py-1" name="message" id="message" cols="30" rows="5"
               placeholder="Description..."></textarea>
             <button type="submit" class="send "><img src="/images/contact/send.svg" alt=""></button>
