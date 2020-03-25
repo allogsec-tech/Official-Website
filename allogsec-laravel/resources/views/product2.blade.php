@@ -2,6 +2,7 @@
 <!-- <link rel="stylesheet" href="/stylesheets/productpage.css"> -->
 <link rel="stylesheet" href="/stylesheets/productResponsive.css">
 <link rel="stylesheet" href="/stylesheets/footerResponsive.css">
+<title> Allogsec | DoMVc</title>
 
 </head>
 

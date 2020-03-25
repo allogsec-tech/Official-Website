@@ -2,6 +2,7 @@
 <!-- <link rel="stylesheet" href="/stylesheets/contactpage.css"> -->
 <link rel="stylesheet" href="/stylesheets/contactResponsive.css">
 <link rel="stylesheet" href="/stylesheets/footerResponsive1.css">
+<title> Allogsec | Contact Us </title>
 
 </head>
 

@@ -3,6 +3,7 @@
 <link rel="stylesheet" href="/stylesheets/productResponsive.css">
 <link rel="stylesheet" href="/stylesheets/footerResponsive.css">
 
+<title> Allogsec | Charapp </title>
 </head>
 
 <body onload="nav()">

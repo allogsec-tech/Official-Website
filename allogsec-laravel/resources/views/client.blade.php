@@ -2,6 +2,7 @@
 <!-- <link rel="stylesheet" href="/stylesheets/teampage.css"> -->
 <link rel="stylesheet" href="/stylesheets/teamResponsive.css">
 <link rel="stylesheet" href="/stylesheets/footerResponsive.css">
+<title> Allogsec | Our Clients </title>
 
 </head>
 
