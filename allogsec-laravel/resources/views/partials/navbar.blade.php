@@ -1,7 +1,7 @@
 <div id="topleftpane">
   <!-- <img src="/images/topleft.svg" alt="">
   <img src="/images/Subtract.svg" alt=""> -->
-  <img src="/images/nav/logo.svg" id="logo" alt="">
+ <a href="/>" <img src="/images/nav/logo.svg" id="logo" alt=""> </a>
 </div>
 <!-- <div id="toprightpane">
   <img id="navigate" src="/images/nV.png" alt="" width="100%">
