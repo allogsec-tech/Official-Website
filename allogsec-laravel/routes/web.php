@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/home', function () {
     return view('index');
 });
+
+Route::get('/clients', function () {
+    return view('client');
+});
