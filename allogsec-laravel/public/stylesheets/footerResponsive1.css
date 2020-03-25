@@ -1,0 +1,182 @@
+@media (min-width: 320px) {
+  .sec {
+    position: static;
+    margin-top: 15%;
+  }
+  .sec .footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    color: #fff;
+    background-color: #10182F;
+  }
+  .sec .footer .ifra {
+    display: none;
+    margin: 0;
+  }
+  .sec .footer .ifra iframe {
+    bottom: 105%;
+    width: 50%;
+    position: absolute;
+    left: 35%;
+    margin: -10% 0 0 0;
+  }
+  .sec .footer .address {
+    position: static;
+    width: 90%;
+    margin: 5% 0 0 2%;
+    color: #fff;
+  }
+  .sec .footer .address h4 {
+    font-size: 0.7rem;
+  }
+  .sec .footer .credits {
+    position: relative;
+    width: 100%;
+    height: 5%;
+  }
+  .sec .footer .credits h4 {
+    font-size: 0.7rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .sec {
+    position: relative;
+    margin-top: 15%;
+  }
+  .sec .footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    color: #fff;
+    background-color: #10182F;
+  }
+  .sec .footer .ifra {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    bottom: 50%;
+    height: 50px;
+    margin: 0;
+  }
+  .sec .footer .ifra iframe {
+    bottom: 105%;
+    width: 50%;
+    position: absolute;
+    left: 48%;
+    margin: -10% 0 0 0;
+  }
+  .sec .footer .address {
+    position: static;
+    width: 45%;
+    margin: 5% 0 0 2%;
+    color: #fff;
+  }
+  .sec .footer .address h4 {
+    font-size: 1rem;
+  }
+  .sec .footer .credits {
+    position: relative;
+    width: 100%;
+    height: 5%;
+  }
+  .sec .footer .credits h4 {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .sec {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  .sec .footer {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    color: #fff;
+    background-color: #10182F;
+  }
+  .sec .footer .ifra {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    bottom: 50%;
+    height: 50px;
+    margin: 0;
+  }
+  .sec .footer .ifra iframe {
+    bottom: 105%;
+    width: 50%;
+    position: absolute;
+    left: 48%;
+    margin: -10% 0 0 0;
+  }
+  .sec .footer .address {
+    position: static;
+    width: 45%;
+    margin: 5% 0 0 2%;
+    color: #fff;
+  }
+  .sec .footer .address h4 {
+    font-size: 1.3rem;
+  }
+  .sec .footer .credits {
+    position: relative;
+    width: 100%;
+    height: 5%;
+  }
+  .sec .footer .credits h4 {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .sec {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  .sec .footer {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    color: #fff;
+    background-color: #10182F;
+  }
+  .sec .footer .ifra {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    bottom: 50%;
+    height: 50px;
+    margin: 0;
+  }
+  .sec .footer .ifra iframe {
+    bottom: 15%;
+    width: 50%;
+    position: absolute;
+    left: 48%;
+    margin: -10% 0 0 0;
+  }
+  .sec .footer .address {
+    position: static;
+    width: 45%;
+    margin: 5% 0 0 2%;
+    color: #fff;
+  }
+  .sec .footer .address h4 {
+    font-size: 1.3rem;
+  }
+  .sec .footer .credits {
+    position: relative;
+    width: 100%;
+    height: 5%;
+  }
+  .sec .footer .credits h4 {
+    font-size: 1.3rem;
+  }
+}
+/*# sourceMappingURL=footerResponsive1.css.map */

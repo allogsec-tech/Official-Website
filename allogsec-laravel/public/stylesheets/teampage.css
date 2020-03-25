@@ -1,0 +1,53 @@
+#rightcurve {
+  position: absolute;
+  right: -1%;
+  top: 20%;
+}
+
+.profile {
+  color: #00398e;
+  position: relative;
+  background-color: #fff;
+  left: 5%;
+}
+
+.profile #imgProfile {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  margin-top: 15%;
+}
+
+.profile #imgProfile img {
+  border-radius: 50%;
+}
+
+.profile .description {
+  width: 100%;
+  position: relative;
+  top: 0;
+  text-align: left;
+}
+
+.profile .description .social {
+  position: absolute;
+  z-index: 10;
+}
+
+.profile .description .social a:hover img {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.profile .description p {
+  width: 100%;
+  position: relative;
+  margin-top: 10%;
+}
+
+.centered {
+  -webkit-transform: translate(15%, 100%);
+          transform: translate(15%, 100%);
+}
+/*# sourceMappingURL=teampage.css.map */

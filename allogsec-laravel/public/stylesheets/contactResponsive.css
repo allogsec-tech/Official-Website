@@ -1,0 +1,180 @@
+@media (min-width: 320px) {
+  img#uppercurve, img#lowercurve {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    top: 0;
+    left: 0;
+    z-index: -2;
+  }
+  .letter {
+    margin: 25% 0 0 32%;
+    width: 30%;
+  }
+  .form {
+    position: relative;
+    display: inline-block;
+    width: 70%;
+    z-index: 5;
+    left: 20%;
+    margin: 0;
+  }
+  .form .mailForm {
+    display: block;
+    outline: none;
+    border: 1px solid #00d1ff;
+    border-radius: 24px 24px;
+    padding-left: 30px;
+    width: 70%;
+    font-size: 0.5rem;
+    height: 70%;
+  }
+  .form button.send {
+    background: none;
+    position: absolute;
+    display: inline-block;
+    left: -15%;
+    border: none;
+  }
+  .form button.send img {
+    width: 30%;
+    left: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  img#uppercurve, img#lowercurve {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    top: 0;
+    left: 0;
+    z-index: -2;
+  }
+  .letter {
+    margin: 25% 0 0 32%;
+    width: 30%;
+  }
+  .form {
+    position: relative;
+    display: inline-block;
+    left: 10%;
+    z-index: 5;
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+  .form .mailForm {
+    display: inline-block;
+    outline: none;
+    border: 1px solid #00d1ff;
+    border-radius: 24px 24px;
+    padding-left: 30px;
+    width: 70%;
+    font-size: 0.5rem;
+    height: 80%;
+  }
+  .form button.send {
+    background: none;
+    position: absolute;
+    display: inline-block;
+    left: -5%;
+    border: none;
+    bottom: -10%;
+  }
+  .form button.send img {
+    width: 40%;
+    left: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  img#uppercurve, img#lowercurve {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    top: 0;
+    left: 0;
+    z-index: -2;
+  }
+  .letter {
+    margin: 25% 0 0 32%;
+    width: 30%;
+  }
+  .form {
+    position: relative;
+    display: inline-block;
+    left: 10%;
+    z-index: 5;
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+  .form .mailForm {
+    display: inline-block;
+    outline: none;
+    border: 1px solid #00d1ff;
+    border-radius: 24px 24px;
+    padding-left: 30px;
+    width: 70%;
+    font-size: 0.5rem;
+    height: 80%;
+  }
+  .form button.send {
+    background: none;
+    position: absolute;
+    display: inline-block;
+    left: -5%;
+    border: none;
+    bottom: -10%;
+  }
+  .form button.send img {
+    width: 40%;
+    left: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  img#uppercurve, img#lowercurve {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    top: 0;
+    left: 0;
+    z-index: -2;
+  }
+  .letter {
+    margin: 15% 0 0 0;
+    display: inline-block;
+    width: 30%;
+  }
+  .form {
+    position: absolute;
+    display: inline-block;
+    left: 40%;
+    z-index: 5;
+    margin-left: 10%;
+    margin-top: 5%;
+  }
+  .form .mailForm {
+    display: inline-block;
+    outline: none;
+    border: 1px solid #00d1ff;
+    border-radius: 24px 24px;
+    padding-left: 30px;
+    width: 50%;
+    font-size: 1rem;
+    height: 80%;
+  }
+  .form button.send {
+    background: none;
+    position: absolute;
+    display: inline-block;
+    left: 0%;
+    border: none;
+    bottom: -15%;
+  }
+  .form button.send img {
+    width: 100%;
+    left: 10%;
+  }
+}
+/*# sourceMappingURL=contactResponsive.css.map */

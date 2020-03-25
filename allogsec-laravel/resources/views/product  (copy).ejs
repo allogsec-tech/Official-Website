@@ -1,0 +1,59 @@
+<%- include('./partials/header') -%>
+<link rel="stylesheet" href="/stylesheets/productpage.css">
+</head>
+
+<body onload="nav()">
+
+  <%- include('./partials/navbar') -%>
+
+  <main>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-sm text-center">
+          <h3 class="font-weight-light"><span class="font-weight-bold">CharApp</span>
+          </h3>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid d-block mt-5 ml-5 p-3" id="content">
+
+      <div class="row mt-5">
+        <div class="col-sm">
+          <div class="container w-75 pt-5 ">
+
+            <p class="font-weight-light">A Web based application for Trust/Charity/NGO organizations to manage their
+              charity activities, maintaining applicant records, donor transactions, local expenses and funds. The
+              application helps to integrate Donors, Recipients, and management authorities under a single platform. It
+              also stands as a medium to track fund disbursements, donor information and other liabilities. The
+              application also provides a finance and accounting module (Including taxation). </p>
+            <a class="mt-5 font-weight-bold d-inline-block" href="/product-1"><img src="/images/moreDetails.svg"
+                alt=""></a>
+
+          </div>
+
+        </div>
+        <div class="col-sm">
+          <div class="svg">
+            <img src="/images/product1.svg" alt="" height="400">
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+
+  </main>
+  <input type="hidden" id="navi" value='<%= nav %>'>
+
+
+  <div class="container d-flex justify-content-center">
+    <img src="/images/bottom.svg" id="bottomcenter" width="600" alt="">
+  </div>
+
+  <!-- 
+<img src="/images/Bottomleft.svg" id="bottomleft" width="300" alt="">
+<img id="bottomright" src="/images/Bottomright.svg" width="150" alt=""> -->
+
+
+  <%- include('./partials/footer') -%>

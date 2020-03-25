@@ -1,0 +1,42 @@
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+#bottomcenter {
+  display: inline-block;
+  position: absolute;
+  bottom: -2%;
+}
+
+.contain {
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.contain img {
+  position: relative;
+  left: 0;
+  width: 35%;
+}
+
+.contain .title {
+  position: absolute;
+  top: 34%;
+  left: 15%;
+  color: white;
+  width: 70%;
+  font-size: 1.3rem;
+}
+
+ul#styleType li {
+  font-size: 1rem;
+  list-style-type: lower-roman;
+  list-style-position: inside;
+}
+
+li {
+  font-size: 1rem;
+}
+/*# sourceMappingURL=productpage.css.map */
