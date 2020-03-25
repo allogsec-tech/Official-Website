@@ -19,7 +19,10 @@ Route::get('/home', function () {
     return view('index');
 });
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> e44a48e14b8ed3c3bf7013795e99b6b906190eff
 Route::get('/team', function () {
     return view('team');
 });

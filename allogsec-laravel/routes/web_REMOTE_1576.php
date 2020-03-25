@@ -19,7 +19,6 @@ Route::get('/home', function () {
     return view('index');
 });
 
-
 Route::get('/team', function () {
     return view('team');
 });

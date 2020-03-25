@@ -1,7 +1,7 @@
 <div id="topleftpane">
   <!-- <img src="/images/topleft.svg" alt="">
   <img src="/images/Subtract.svg" alt=""> -->
-  <img src="/images/nav/logo.svg" id="logo" alt="">
+ <a href="/>" <img src="/images/nav/logo.svg" id="logo" alt=""> </a>
 </div>
 <!-- <div id="toprightpane">
   <img id="navigate" src="/images/nV.png" alt="" width="100%">
@@ -16,7 +16,7 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav m-auto " id="nav">
 
-      <li class="nav-item active p-3 " id="home">
+      <li class="nav-item  p-3 " id="home">
         <a class="nav-link" href="/">Home</a>
       </li>
       <li class="nav-item  p-3  " id="product">
@@ -34,3 +34,8 @@
     </ul>
   </div>
 </nav>
+
+
+
+
+
