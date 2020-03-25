@@ -16,7 +16,7 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav m-auto " id="nav">
 
-      <li class="nav-item active p-3 " id="home">
+      <li class="nav-item  p-3 " id="home">
         <a class="nav-link" href="/">Home</a>
       </li>
       <li class="nav-item  p-3  " id="product">
@@ -34,3 +34,8 @@
     </ul>
   </div>
 </nav>
+
+
+
+
+
